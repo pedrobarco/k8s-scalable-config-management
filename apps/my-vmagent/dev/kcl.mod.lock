@@ -1,0 +1,17 @@
+[dependencies]
+  [dependencies.k8s]
+    name = "k8s"
+    full_name = "k8s_1.28"
+    version = "1.28"
+    sum = "aTxPUVZyr9MdiB3YdiY/8pCh9sC55yURnZdGlJsKG6Q="
+    reg = "ghcr.io"
+    repo = "kcl-lang/k8s"
+    oci_tag = "1.28"
+  [dependencies.k8s-scalable-config-management]
+    name = "k8s-scalable-config-management"
+    full_name = "k8s-scalable-config-management_0.0.1"
+    version = "0.0.1"
+  [dependencies.victoria-metrics-operator]
+    name = "victoria-metrics-operator"
+    full_name = "victoria-metrics-operator_0.45.1"
+    version = "0.45.1"

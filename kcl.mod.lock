@@ -1,0 +1,9 @@
+[dependencies]
+  [dependencies.k8s]
+    name = "k8s"
+    full_name = "k8s_1.29"
+    version = "1.29"
+  [dependencies.victoria-metrics-operator]
+    name = "victoria-metrics-operator"
+    full_name = "victoria-metrics-operator_0.45.1"
+    version = "0.45.1"
