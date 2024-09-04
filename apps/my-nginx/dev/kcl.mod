@@ -1,5 +1,5 @@
 [package]
-name = "prod"
+name = "dev"
 edition = "v0.10.0"
 version = "0.0.1"
 
@@ -10,5 +10,5 @@ k8s-scalable-config-management = { path = "../../../../k8s-scalable-config-manag
 entries = [
   "../base/base.k",
   "main.k",
-  "${k8s_scalable_config_management:KCL_MOD}/models/vm/render/render.k"
+  "${k8s_scalable_config_management:KCL_MOD}/models/nginx/render/render.k"
 ]

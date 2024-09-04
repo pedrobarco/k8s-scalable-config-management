@@ -1,5 +1,5 @@
 [package]
-name = "my-vmagent"
+name = "my-nginx"
 edition = "v0.10.0"
 version = "0.0.1"
 
