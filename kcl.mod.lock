@@ -1,10 +1,16 @@
 [dependencies]
   [dependencies.k8s]
     name = "k8s"
-    full_name = "k8s_1.29"
-    version = "1.29"
+    full_name = "k8s_1.28"
+    version = "1.28"
+    reg = "ghcr.io"
+    repo = "kcl-lang/k8s"
+    oci_tag = "1.28"
   [dependencies.victoria-metrics-operator]
     name = "victoria-metrics-operator"
     full_name = "victoria-metrics-operator_0.45.1"
     version = "0.45.1"
     sum = "cdXSqOcGYsl3jAomrktjvo+yEcy8RnlXkjU3krleJ1U="
+    reg = "ghcr.io"
+    repo = "kcl-lang/victoria-metrics-operator"
+    oci_tag = "0.45.1"
